@@ -32,7 +32,7 @@
 body {
 	background: var(--bg);
 	color: var(--main);
-	font-family: sans-serif;
+	font-family: Arial;
 	font-size: 1.1em;
 	display: block;
 	text-align: left;
