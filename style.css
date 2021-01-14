@@ -32,7 +32,7 @@
 body {
 	background: var(--bg);
 	color: var(--main);
-	font-family: Arial;
+	font-family: SourceCodePro;
 	font-size: 1.1em;
 	display: block;
 	text-align: left;
@@ -61,7 +61,7 @@ body {
 	background: var(--bg);
 	color: var(--main);
 	line-height: 1.5;
-	font-family: "Source Code Pro Regular";
+	font-family: "SourceCodePro";
 }
 
 
