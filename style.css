@@ -1,0 +1,99 @@
+/* Global variables for changing colours across the site */
+:root {
+    --accent: #5e81ac;
+		--main: #d8dee9;
+		--light: #2e3340;
+		--lighter: #2e3340;
+		--border: #e6e6e6;
+		--bg: #2e3340;
+		--menu: #2e3340
+}
+
+/* Make the website responsive */
+@media screen and (max-width: 100%) {
+  .main {
+    width: 800px;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  ul.nav li {float: none;}
+}
+
+.main {
+  float: center;
+  width: 100%;
+	max-width: 800px;
+	margin: 0 auto;
+
+}
+
+/* Format the main body of the website */
+body {
+	background: var(--bg);
+	color: var(--main);
+	font-family: sans-serif;
+	font-size: 1.1em;
+	display: block;
+	text-align: left;
+	width: 800px;
+	margin: 0 auto;
+}
+
+/* Format the banner image on the home page */
+img.home-banner {
+	padding-top: 60px;
+	padding-bottom: 20px;
+}
+
+/* Format hyperlinks */
+a, a:visited {
+	color: var(--accent);
+	text-decoration: none;
+}
+
+a:hover, a:focus, a:active {
+	text-decoration: underline;
+}
+
+/* Format the main body text */
+body {
+	background: var(--bg);
+	color: var(--main);
+	line-height: 1.5;
+	font-family: "Source Code Pro Regular";
+}
+
+
+/* Format Nav Bar */
+ul.nav {
+  display: inline-block;
+  list-style-type: none;
+  margin: 0;
+  padding: 0px;
+  overflow: hidden;
+  background-color: var(--menu);
+}
+
+li.nav {
+	float: left;
+}
+
+li.nav a {
+	display: block;
+  color: var(--main);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+ul.nav li.nav a:hover:not(.active){
+	background-color: var(--accent);
+}
+
+.active {
+	background-color: var(--accent);
+}
+
+
+
