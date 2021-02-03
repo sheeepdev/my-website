@@ -1,34 +1,125 @@
 <!DOCTYPE html>
-<html>
-<head>
-<link href="style.css" rel="stylesheet" type="text/css" media="all">
-<link rel="shortcut icon" href="images/favicon.png" />
-<title>sheep's website</title>
-<meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=yes">
-<link rel='stylesheet'  href="fonts/SourceCodePro/SourceCodePro.css" type='text/css' media='all' />
-</head>
-<body>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://unpkg.com/feather-icons"></script>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel=" shortcut icon" type="image/png" href="img/favicon.png" />
+    <title>Daniel Kristensen</title>
+  </head>
 
+  <body>
+    <div class="container">
+      <section class="intro" id="intro">
+        <header class="header">
+          <nav class="header__navigation">
+            <a href="https://blu3jive001.github.io/#intro" class="header__navigation-link">Home</a>
+            <a href="https://blu3jive001.github.io/#about" class="header__navigation-link">About</a>
+            <a href="https://blu3jive001.github.io/about.html" class="header__navigation-link">Projects</a>
 
-  <!-- *** NAVIGATION SECTION *** -->
-  		<ul class="nav">
-  			<li class="nav"><a href="index.html" class="active">home</a></li>
-  			<li class="nav"><a href="about.html">about</a></li>
-  			<li class="nav"><a href="contact.html">contact</a></li>
-			<li class="nav"><a href="blog/index.html">blog</a></li>
-  		</ul>
-<!-- *** END NAVIGATION *** -->
+            <button class="header__navigation-button" id="themeButton">
+              <i id="bicon" data-feather="sun"></i>
+            </button>
+          </nav>
+        </header>
 
-  <h1>hello!</h1>
+        <main class="index">
+          <div class="index__photo">
+            <img src="img/profile-photo.jpg" alt="index-photo" />
+          </div>
 
-  <p>hi, im sheep! i do stuff on the internet. this is my website.</p>
-
-  <h4>i'd now suggest you to read my other pages because there is nothing here :D<h4>
-  
-  <p>thanks <a href="https://kevq.uk">kev</a> for the original work.</p>
-
-
-
-
-</body>
+          <div class="index__text">
+            <div class="index__text-primary">
+              <p>
+                I'm
+                <span class="index__text-special">Daniel Kristensen</span>
+              </p>
+            </div>
+            <div class="index__text-secondary">
+              A
+              <span
+                class="txt-type"
+                data-wait="1800"
+                data-words='["Software Engineering Student", "Cyber-Security Analyst", "Motivated Open-Source Programmer", "Unix Themer"]'
+              ></span>
+            </div>
+            <div class="index__links">
+              <a
+                target="blank"
+                href="mailto:blu3jive@gmail.com"
+                class="index__links-button"
+                ><i
+                  class="index__links-icon index__links-icon-1"
+                  data-feather="mail"
+                ></i
+              ></a>
+              <a
+                href="https://github.com/Blu3Jive001"
+                target="blank"
+                class="index__links-button"
+                ><i
+                  class="index__links-icon index__links-icon-2"
+                  data-feather="github"
+                ></i
+              ></a>
+              <a
+                target="blank"
+                href="https://google.com"
+                class="index__links-button"
+                ><i
+                  class="index__links-icon index__links-icon-3"
+                  data-feather="twitter"
+                ></i
+              ></a>
+            </div>
+          </div>
+        </main>
+      </section>
+      <section class="about" id="about">
+        <div class="about__text">
+          <div class="about__title">About me</div>
+          <div class="about__text-p">
+            Hello! I'm
+            <span class="about__text-special">Daniel</span>, a student of
+            programming and networking, a cybersecurity analyst. 
+            <span class="about__text-special2">Really.</span>
+            And a unix themer, an avid reader, and a lover of my two dogs.
+          </div>
+          <div class="about__text-p about__text-f">
+            My starting point in cyber-security was in high school when I signed
+            up for a
+            <span class="about__text-special">Lockheed Martin</span> hacking contest and had my
+            first experience with competitive penetration testing. Then I studied about
+            cyber-security and programming.
+          </div>
+          <div class="about__text-p">
+            After all these years, I've just fell in love with technology, I
+            found an area where
+            <span class="about__text-special">knowledge is unlimited</span>,
+            where there's always something to learn about. You can bet I'm
+            always studying about languages and technologies like Rust and Node.
+          </div>
+          <!-- <button class="about__button" id="themeButton">
+                        <a class="about__button-link" href="mailto:miguelravila@outlook.com"
+                            ><i class="about__button-icon" id="bicon" data-feather="mail"></i> Mail me</a
+                        >
+                    </button> -->
+        </div>
+        <div class="about__photo">
+          <img src="img/gallery1.jpg" alt="" />
+        </div>
+      </section>
+    </div>
+    <script src="js/stars.js"></script>
+    <script src="js/type.js"></script>
+    <script src="js/theme.js"></script>
+    <script>
+      feather.replace();
+    </script>
+  </body>
 </html>
