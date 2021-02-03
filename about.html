@@ -1,41 +1,128 @@
 <!DOCTYPE html>
-<html>
-<head>
-<link href="style.css" rel="stylesheet" type="text/css" media="all">
-<link rel="shortcut icon" href="images/favicon.png" />
-<link rel='stylesheet'  href="fonts/SourceCodePro/SourceCodePro.css" type='text/css' media='all' />
-<meta name="viewport" content="width=device-width, initial-scale=1.0">  
-<title>about me - sheep's website</title>
-</head>
-<body>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://unpkg.com/feather-icons"></script>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel=" shortcut icon" type="image/png" href="img/favicon.png" />
+    <title>Daniel Kristensen</title>
+  </head>
 
-<!-- *** NAVIGATION SECTION *** -->
-  		<ul class="nav">
-  			<li class="nav"><a href="index.html">home</a></li>
-  			<li class="nav"><a href="about.html" class="active">about</a></li>
-  			<li class="nav"><a href="contact.html">contact</a></li>
-        <li class="nav"><a href="blog/index.html">blog</a></li>
-  		</ul>
-<!-- *** END NAVIGATION *** -->
+  <body>
+    <div class="container">
+      <section class="intro" id="intro">
+        <header class="header">
+          <nav class="header__navigation">
+            <a href="https://blu3jive001.github.io/#intro" class="header__navigation-link">Home</a>
+            <a href="https://blu3jive001.github.io/#about" class="header__navigation-link">About</a>
+            <a href="https://blu3jive001.github.io/about.html" class="header__navigation-link">Projects</a>
 
-<!-- *** START PAGE CONTENT *** -->
+            <button class="header__navigation-button" id="themeButton">
+              <i id="bicon" data-feather="sun"></i>
+            </button>
+          </nav>
+        </header>
 
-  <h1>about me</h1>
+        <main class="index">
+          <div class="index__photo">
+            <img src="img/profile-photo.jpg" alt="index-photo" />
+          </div>
 
-  <h4>hi! my name is sheep. im just a random guy on the internet.</h4>
-
-  <p>my interests and hobbies:</p>
-
-  <ul>
-    <li>technology and open source</li>
-    <li>themes</li>
-    <li>linux</li>
-    <li>the command line</li>
-    <li>and much more other stuff..</li>
-  </ul>
-
-
-<!-- *** END PAGE CONTENT *** -->
-
-</body>
+          <div class="index__text">
+            <div class="index__text-primary">
+              <p>
+                My
+                <span class="index__text-special">Projects</span>
+              </p>
+            </div>
+            <div class="index__text-secondary">
+              <span
+                class="txt-type"
+                data-wait="1800"
+                data-words='["Comprehensive dotfiles", "Unique website designs", "Customized fetches", "Automation scripts"]'
+              ></span>
+            </div>
+            <div class="index__links">
+              <a
+                target="blank"
+                href="mailto:blu3jive@gmail.com"
+                class="index__links-button"
+                ><i
+                  class="index__links-icon index__links-icon-1"
+                  data-feather="mail"
+                ></i
+              ></a>
+              <a
+                href="https://github.com/Blu3Jive001"
+                target="blank"
+                class="index__links-button"
+                ><i
+                  class="index__links-icon index__links-icon-2"
+                  data-feather="github"
+                ></i
+              ></a>
+              <a
+                target="blank"
+                href="https://twitter.com/miguellravila"
+                class="index__links-button"
+                ><i
+                  class="index__links-icon index__links-icon-3"
+                  data-feather="twitter"
+                ></i
+              ></a>
+            </div>
+          </div>
+        </main>
+      </section>
+      <section class="about" id="about">
+        <div class="about__text">
+          <div class="about__title">Upcoming Projects</div>
+          <div class="about__text-p">
+            This is a description of the upcoming 
+            <span class="about__text-special">projects</span>, I have planned.
+            I'm including Unix/Windows dotfiles, customized fetches, scripts and more.
+            <span class="about__text-special2">For free.</span>
+            Any support/feedback/help is appreciated
+          </div>
+          <div class="about__text-p about__text-f">
+            My experience with Windows is mainly theming, and with Rainmeter. But occasionally
+            I like to use
+            <span class="about__text-special">Electron</span> to edit apps and core Windows utilities:
+            taskbar, apps, titlebars, etc...
+            People have said that my creations look like Unix. And that's probably because I'm still
+            going back to my favourite Operating Sytem even on propreiatry software.
+          </div>
+          <div class="about__text-p">
+            My experience with linux is a 
+            <span class="about__text-special">mixed bag</span>
+            . I love it, sure. But the amount of options are incredible.
+            You have different Window Managers, Desktop Environments, and themes. But there is just so much of it.
+            That's why I'm trying to make 
+            <span class="about__text-special">non-bloated, rounded dotfiles</span>
+            . Which have detailed instructions on how to install.
+            I'm always open to community advice with Linux, I'd like to know what people want and how they want it.
+          </div>
+          <!-- <button class="about__button" id="themeButton">
+                        <a class="about__button-link" href="mailto:miguelravila@outlook.com"
+                            ><i class="about__button-icon" id="bicon" data-feather="mail"></i> Mail me</a
+                        >
+                    </button> -->
+        </div>
+        <div class="about__photo">
+          <img src="img/gallery2.gif" alt="" />
+        </div>
+      </section>
+    </div>
+    <script src="js/stars.js"></script>
+    <script src="js/type.js"></script>
+    <script src="js/theme.js"></script>
+    <script>
+      feather.replace();
+    </script>
+  </body>
 </html>
