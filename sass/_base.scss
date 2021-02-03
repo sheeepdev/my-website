@@ -1,0 +1,70 @@
+:root {
+    --bg: #fbfbfc;
+    --bg-light: #4c566a;
+    --bg-card: #eceff4;
+    --color-primary: #5e81ac;
+    --color-primary-light: #88c0d0;
+    --color-primary-dark: #577dac;
+
+    --fg: #2e3440;
+    --fg-light: #d8dee9;
+
+    --transparency: #00000000;
+}
+
+.darktheme {
+    --bg: #242933;
+    --bg-light: #2e3440;
+    --bg-card: #2e3440;
+    --color-primary: #88c0d0;
+    --color-primary-light: #96bcc7;
+    --color-primary-dark: #5e81ac;
+
+    --fg: #d8dee9;
+    --fg-light: #2e3440;
+}
+
+$color-white: #fff;
+$color-black: #000;
+
+//Responsive
+$bp-largest: 75em;
+$bp-large: 68.75em;
+$bp-medium: 56.25em;
+$bp-small: 37.5em;
+$bp-smallest: 31.25em;
+
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+    transition: 0.2s ease-in-out;
+}
+
+html {
+    // box-sizing: border-box;
+    font-size: 62.5%;
+    @media only screen and (max-width: $bp-large) {
+        font-size: 50%;
+    }
+}
+
+body {
+    font-family: 'Rubik', sans-serif;
+    font-weight: 400;
+    line-height: 1.6;
+    color: var(--fg);
+    background-color: var(--bg);
+    height: 100vh;
+    overflow: hidden;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+    overflow-y: scroll;
+
+    scroll-behavior: smooth;
+}
