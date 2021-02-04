@@ -10,7 +10,7 @@
 
 > This is my website!
 
-### 🏠 [website :)](sheepdev.xyz)
+### 🏠 [homepage :)](sheepdev.xyz)
 
 ## Author
 
