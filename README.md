@@ -20,9 +20,5 @@
 * Twitter: [@imsheeeep](https://twitter.com/imsheeeep)
 * Github: [@sheeepdev](https://github.com/sheeepdev)
 
-## Show your support
-
-Give a ⭐️ if this project helped you!
-
-***
-_This README was generated with ❤️ by [readme-md-generator](https://github.com/kefranabg/readme-md-generator)_
+## credit
+i'd like to credit @blu3jive and @MiguelRAvila for this website :) original website is by @MiguelRAvila and @blu3jive is inspiration :)
