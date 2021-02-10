@@ -21,4 +21,4 @@
 * Github: [@sheeepdev](https://github.com/sheeepdev)
 
 ## credit
-original website is by [@MiguelRAvila](https://github.com/miguelravila) and [@blu3jive](https://github.com/blu3jive) is inspiration :)
+original website is by [@MiguelRAvila](https://github.com/miguelravila) and [@blu3jive001](https://github.com/blu3jive001) is inspiration :)
