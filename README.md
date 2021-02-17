@@ -5,7 +5,7 @@
   </a>
 </p>
 
-### 🏠 [website :)](sheepdev.xyz)
+### 🌐 [website](sheepdev.xyz)
 
 ## Author
 
