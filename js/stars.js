@@ -5,15 +5,10 @@ const starFour = document.querySelector('#stars-4');
 const starFive = document.querySelector('#stars-5');
 const starSix = document.querySelector('#stars-6');
 
-getStars('Bento', 'MiguelRAvila', starOne);
-getStars('SimplerentFox', 'MiguelRAvila', starTwo);
-getStars('TOBARA', 'OutatimeSoftware', starThree);
-getStars('McManjaro', 'MiguelRAvila', starFour);
-getStars('CleanDmenu', 'MiguelRAvila', starFive);
-getStars('CatFetch', 'MiguelRAvila', starSix);
+getStars('nordtube', 'sheeepdev', starOne);
 
 function getStars(repoName, user, projectNumber) {
-    let api = `https://api.github.com/repos/MiguelRAvila/${repoName}`;
+    let api = `https://api.github.com/repos/sheeedev/${repoName}`;
     fetch(api)
         .then(function (response) {
             let data = response.json();
