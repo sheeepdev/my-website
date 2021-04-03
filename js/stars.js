@@ -1,9 +1,4 @@
 const starOne = document.querySelector('#stars-1');
-const starTwo = document.querySelector('#stars-2');
-const starThree = document.querySelector('#stars-3');
-const starFour = document.querySelector('#stars-4');
-const starFive = document.querySelector('#stars-5');
-const starSix = document.querySelector('#stars-6');
 
 getStars('nordtube', 'sheeepdev', starOne);
 
