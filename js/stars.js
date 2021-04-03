@@ -3,7 +3,7 @@ const starOne = document.querySelector('#stars-1');
 getStars('nordtube', 'sheeepdev', starOne);
 
 function getStars(repoName, user, projectNumber) {
-    let api = `https://api.github.com/repos/sheeepdev/${repoName}`;
+    let api = `https://api.github.com/repos/sheeepdev/nordtube`;
     fetch(api)
         .then(function (response) {
             let data = response.json();
