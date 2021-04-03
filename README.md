@@ -17,3 +17,5 @@
 
 ## credit
 original website is by [@MigueRAvila](https://github.com/migueravila) and [@blu3jive001](https://github.com/blu3jive001) is inspiration :)
+
+404 page by [Colorlib](https://colorlib.com)
