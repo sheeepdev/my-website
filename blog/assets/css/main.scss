@@ -1,0 +1,21 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+
+// Default theme colors
+$theme-colors: (
+  coolblack: #090a0b,
+  spacegrey: #353535,
+  snowwhite: #ffffff,
+);
+
+$theme-name: "{{ site.theme_color }}";
+$theme-color: map-get($theme-colors, "snowwhite");
+
+@if map-has-key($theme-colors, $theme-name) {
+  $theme-color: map-get($theme-colors, $theme-name);
+} @else if str-index($theme-name, "#") == 1 {
+  $theme-color: {{ site.theme_color | default: '#ffffff' }};
+}
+
+@import "yat";
