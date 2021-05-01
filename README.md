@@ -5,7 +5,8 @@
   </a>
 </p>
 
-### 🌐 [website](sheepdev.xyz)
+### 🌐 [website](sheepdev.xyz) 
+### My website is hosted on [Hostinger](https://hostinger.com/) ⚡ instead of GitHub Pages 🐱. This is just the source code of the website 💻
 
 ## Author
 
@@ -15,20 +16,7 @@
 * Twitter: [@imsheeeep](https://twitter.com/imsheeeep)
 * Github: [@sheeepdev](https://github.com/sheeepdev)
 
-## credit
-original website is by [@MigueRAvila](https://github.com/migueravila) and [@blu3jive001](https://github.com/blu3jive001) is inspiration :)
+## 🙏 Credit
+The original website made by [@MigueRAvila](https://github.com/migueravila) and [@blu3jive001](https://github.com/blu3jive001) inspired me to use Miguel's theme :)
 
-404 page by [Colorlib](https://colorlib.com)
-
-## license
-
-[![CC BY 4.0][cc-by-shield]][cc-by]
-
-This work is licensed under a
-[Creative Commons Attribution 4.0 International License][cc-by].
-
-[![CC BY 4.0][cc-by-image]][cc-by]
-
-[cc-by]: http://creativecommons.org/licenses/by/4.0/
-[cc-by-image]: https://i.creativecommons.org/l/by/4.0/88x31.png
-[cc-by-shield]: https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg
+❓ 404 page by [Colorlib](https://colorlib.com)
