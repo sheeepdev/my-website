@@ -1,6 +1,6 @@
 ### My website is hosted on [Hostinger](https://hostinger.com/) ⚡ instead of GitHub Pages 🐱. This is just the source code of the website 💻
 
-## 👤 Author
+## ✏️ Author
 
 🐑 **sheep**
 
